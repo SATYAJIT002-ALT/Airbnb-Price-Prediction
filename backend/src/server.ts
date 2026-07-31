@@ -27,7 +27,7 @@ app.get('/api/health', (req, res) => {
 });
 
 // Database connection
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/airbnbai';
+const MONGODB_URI = process.env.MONGO_URI || process.env.MONGODB_URI || 'mongodb://localhost:27017/airbnbai';
 
 mongoose.connect(MONGODB_URI)
     .then(() => {
