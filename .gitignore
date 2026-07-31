@@ -18,9 +18,6 @@ env/
 venv/
 .env
 .venv/
-models/xgboost_model.pkl
-models/scaler.pkl
-models/encoders.pkl
 
 # macOS
 .DS_Store

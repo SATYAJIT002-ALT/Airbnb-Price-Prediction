@@ -24,7 +24,7 @@ export default function NewPropertyPage() {
     const handlePredict = async () => {
         setPriceLoading(true);
         try {
-            const response = await fetch('http://localhost:8000/predict', {
+            const response = await fetch(`${process.env.NEXT_PUBLIC_ML_API_URL || 'http://localhost:8000'}/predict`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -55,7 +55,7 @@ export default function NewPropertyPage() {
         setLoading(true);
         try {
             const token = localStorage.getItem('token');
-            const response = await fetch('http://localhost:5000/api/properties', {
+            const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'}/api/properties`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

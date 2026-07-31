@@ -78,7 +78,7 @@ export default function ExplorePage() {
     useEffect(() => {
         const fetchProperties = async () => {
             try {
-                const response = await fetch('http://localhost:5000/api/properties');
+                const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'}/api/properties`);
                 if (response.ok) {
                     const data = await response.json();
                     setProperties([...data, ...DUMMY_PROPERTIES]);

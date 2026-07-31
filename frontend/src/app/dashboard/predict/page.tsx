@@ -44,7 +44,7 @@ export default function PredictPage() {
             setLoading(true);
             try {
                 // Call the real ML FastAPI service running on port 8000
-                const response = await fetch('http://localhost:8000/predict', {
+                const response = await fetch(`${process.env.NEXT_PUBLIC_ML_API_URL || 'http://localhost:8000'}/predict`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
