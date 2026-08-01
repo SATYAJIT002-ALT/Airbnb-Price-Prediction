@@ -85,8 +85,8 @@ export default function Home() {
                     transition={{ delay: 0.1 }}
                     className="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 leading-[1.1]"
                 >
-                    Price any Airbnb listing<br />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-indigo-400 to-pink-400">before</span> you publish it.
+                    Maximize your Airbnb revenue<br />
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-indigo-400 to-pink-400">instantly</span> with AI.
                 </motion.h1>
 
                 {/* Subtitle */}
@@ -96,7 +96,7 @@ export default function Home() {
                     transition={{ delay: 0.2 }}
                     className="text-lg md:text-xl text-slate-400 max-w-3xl mb-12 leading-relaxed"
                 >
-                    AirbnbAI turns property attributes into a defensible nightly rate — with confidence bands, revenue-optimal recommendations and full explainability.
+                    StayWise AI analyzes property features to give you the perfect nightly rate, keeping your calendar booked and profitable.
                 </motion.p>
 
                 {/* CTA Buttons */}
