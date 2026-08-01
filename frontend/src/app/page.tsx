@@ -85,8 +85,8 @@ export default function Home() {
                     transition={{ delay: 0.1 }}
                     className="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 leading-[1.1]"
                 >
-                    Maximize your Airbnb revenue<br />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-indigo-400 to-pink-400">instantly</span> with AI.
+                    Find your perfect stay at the<br />
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-indigo-400 to-pink-400">perfect</span> price.
                 </motion.h1>
 
                 {/* Subtitle */}
@@ -96,7 +96,7 @@ export default function Home() {
                     transition={{ delay: 0.2 }}
                     className="text-lg md:text-xl text-slate-400 max-w-3xl mb-12 leading-relaxed"
                 >
-                    StayWise AI analyzes property features to give you the perfect nightly rate, keeping your calendar booked and profitable.
+                    StayWise AI analyzes thousands of listings to predict the fairest price, ensuring you never overpay for your dream vacation.
                 </motion.p>
 
                 {/* CTA Buttons */}
