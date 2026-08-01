@@ -4,6 +4,11 @@
 
 It features a robust **Microservices Architecture** with a Next.js 15 Frontend, an Express.js/MongoDB Backend API, and a FastAPI/XGBoost Machine Learning service.
 
+## 🔴 Live Demos
+- **Frontend App (Vercel):** [https://airbnb-price-prediction-six.vercel.app](https://airbnb-price-prediction-six.vercel.app)
+- **Backend API (Render):** [https://staywise-backend-yo9e.onrender.com/api/health](https://staywise-backend-yo9e.onrender.com/api/health)
+- **ML Service (Render):** [https://staywise-ml-service.onrender.com](https://staywise-ml-service.onrender.com)
+
 ## 🚀 Key Features
 
 ### 🧠 Artificial Intelligence (ML Service)
